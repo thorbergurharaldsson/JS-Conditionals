@@ -54,7 +54,7 @@ if (firstPersonAge > lastPersonAge) {
   console.log(
     people[0].name +
       " (1st person) is older then " +
-      person.at(-1).name +
+      people.at(-1).name +
       " (last person)"
   );
 }
